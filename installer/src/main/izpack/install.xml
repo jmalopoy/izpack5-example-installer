@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<installation version="5.0">
+<izpack:installation version="5.0" xmlns:izpack="http://izpack.org/schema/installation"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://izpack.org/schema/installation https://raw.githubusercontent.com/izpack/izpack/master/izpack-compiler/src/main/resources/schema/5.0/izpack-installation-5.0.xsd">
     <info>
         <appname>IzPack Installer Example</appname>
         <appversion>1.0-SNAPSHOT</appversion>
@@ -71,4 +73,4 @@
             <file src="pack2_content/adave_willet_jim_davies.jpg" targetdir="$INSTALL_PATH"/>
         </pack>
     </packs>
-</installation>
+</izpack:installation>
