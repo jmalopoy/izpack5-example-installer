@@ -47,6 +47,7 @@
 
     <!-- pull in the built jar file for our custom panel -->
     <jar src="custom/izpack-panels.jar" stage="both"/>
+    <jar src="fontbox-3.0.5.jar" stage="both"/>
 
     <panels>
         <!-- Default id for HTMLHelloPanel is info, changing it to welcome for better readability. -->
