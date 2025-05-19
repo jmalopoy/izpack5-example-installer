@@ -45,9 +45,7 @@
         <variable name="TargetPanel.dir.unix" value="$USER_HOME/IzPackExample"/>
     </variables>
 
-    <!-- pull in the built jar file for our custom panel -->
-    <jar src="custom/izpack-panels.jar" stage="both"/>
-    <jar src="fontbox-3.0.5.jar" stage="both"/>
+    <jar src="fontbox-3.0.5.jar" stage="uninstall"/>
 
     <panels>
         <!-- Default id for HTMLHelloPanel is info, changing it to welcome for better readability. -->
@@ -55,8 +53,6 @@
         <!-- Default id for InfoPanel is info, no need to specify. -->
         <panel classname="InfoPanel"/>
         <panel classname="LicencePanel"/>
-        <!-- this is our custom panel, loaded from the izpack-panels.jar file -->
-        <panel classname="com.izforge.izpack.panels.mypanels.MyHelloPanel"/>
 
         <panel classname="TargetPanel"/>
         <panel classname="PacksPanel"/>
